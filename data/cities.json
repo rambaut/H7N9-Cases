@@ -2,6 +2,7 @@
 { "name": "Beijing", "province": "Beijing", "coordinates": [116.4000, 39.9100] },
 { "name": "Chuzhou", "province": "Anhui", "coordinates": [118.2978, 32.3219] },
 { "name": "Changshu", "province": "Jiangsu", "coordinates": [120.7333, 31.6500] },
+{ "name": "Fuzhou", "province": "Fujian", "coordinates": [119.3036, 26.0711] },
 { "name": "Hangzhou", "province": "Zhejiang", "coordinates": [120.1769, 30.2731] },
 { "name": "Haozhou", "province": "Anhui", "coordinates": [115.7500, 33.8667] },
 { "name": "Huzhou", "province": "Zhejiang", "coordinates": [120.1000, 30.8667] },
@@ -9,6 +10,7 @@
 { "name": "Jiaxing", "province": "Zhejiang", "coordinates": [120.7500, 30.7667] },
 { "name": "Kaifeng", "province": "Henan", "coordinates": [114.3481, 34.7911] },
 { "name": "Kunshan", "province": "Jiangsu", "coordinates": [120.9514, 31.3844] },
+{ "name": "Liyang", "province": "Jiangsu", "coordinates": [119.4667, 31.4167] }
 { "name": "Nanjing", "province": "Jiangsu", "coordinates": [118.7667, 32.0500] },
 { "name": "Shanghai", "province": "Shanghai", "coordinates": [121.5000, 31.2000] },
 { "name": "Suzhou", "province": "Jiangsu", "coordinates": [120.6000, 31.3167] },
@@ -17,10 +19,10 @@
 { "name": "Wuxi", "province": "Jiangsu", "coordinates": [120.2833, 31.5667] },
 { "name": "Yancheng", "province": "Jiangsu", "coordinates": [120.1167, 33.3833] },
 { "name": "Yangzhou", "province": "Jiangsu", "coordinates": [119.4167, 32.3833] },
+{ "name": "Yichun", "province": "Jiangxi", "coordinates": [114.3833, 27.8000] },
 { "name": "Zhenjiang", "province": "Jiangsu", "coordinates": [119.4167, 32.2000] },
 { "name": "Zhenzhou", "province": "Henan", "coordinates": [113.6419, 34.7603] },
 { "name": "Zhoukou", "province": "Henan", "coordinates": [114.6333, 33.6333] },
 { "name": "Zaozhuang", "province": "Shandong", "coordinates": [117.55, 34.866667] },
-{ "name": "Liyang", "province": "Jiangsu", "coordinates": [119.4667, 31.4167] }
 ]
 
