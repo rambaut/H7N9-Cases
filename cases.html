@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>MERS-CoV Cases</title>
+<title>H7N9 Human Cases</title>
 <style>
 
 body {
@@ -326,9 +326,6 @@ aside {
       age = individual.dimension(function(d) { return d.age; }),
       ageGroups = age.group(function(d) { return Math.floor(d / 5) * 5; });
 
-//      distance = flight.dimension(function(d) { return Math.min(1999, d.distance); }),
-//      distances = distance.group(function(d) { return Math.floor(d / 50) * 50; });
-
   var charts = [
 
        barChart()
@@ -336,9 +333,9 @@ aside {
         .group(onsetDates)
         .round(d3.time.day.round)
       .x(d3.time.scale()
-        .domain([new Date(2012, 0, 1), new Date(2013, 7, 1)])
+        .domain([new Date(2013, 0, 1), new Date(2013, 7, 1)])
         .rangeRound([0, 10 * 90]))
-        .filter([new Date(2012, 0, 1), new Date(2013, 7, 1)]),
+        .filter([new Date(2013, 0, 1), new Date(2013, 7, 1)]),
 	
 	barChart()
         .dimension(age)
