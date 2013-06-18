@@ -318,7 +318,7 @@ aside {
   var individual = crossfilter(cases),
       all = individual.groupAll(),
       onsetDate = individual.dimension(function(d) { return d.onset; }),
-      onsetDates = onsetDate.group(d3.time.week),
+      onsetDates = onsetDate.group(d3.time.day),
       gender = individual.dimension(function(d) { return d.genderCode; }),
       genders = gender.group(function(d) { return d; }),
       death = individual.dimension(function(d) { return (d.death == null ? 1 : 2); }),
