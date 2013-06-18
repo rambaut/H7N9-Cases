@@ -333,9 +333,9 @@ aside {
         .group(onsetDates)
         .round(d3.time.day.round)
       .x(d3.time.scale()
-        .domain([new Date(2013, 0, 1), new Date(2013, 7, 1)])
+        .domain([new Date(2013, 0, 1), new Date(2013, 6, 1)])
         .rangeRound([0, 10 * 90]))
-        .filter([new Date(2013, 0, 1), new Date(2013, 7, 1)]),
+        .filter([new Date(2013, 0, 1), new Date(2013, 6, 1)]),
 	
 	barChart()
         .dimension(age)
