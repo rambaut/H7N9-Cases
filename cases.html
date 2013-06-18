@@ -334,7 +334,7 @@ aside {
         .round(d3.time.day.round)
       .x(d3.time.scale()
         .domain([new Date(2013, 0, 1), new Date(2013, 6, 1)])
-        .rangeRound([0, 10 * 90]))
+        .rangeRound([0, 600]))
         .filter([new Date(2013, 0, 1), new Date(2013, 6, 1)]),
 	
 	barChart()
@@ -375,6 +375,8 @@ aside {
   d3.selectAll("#total")
       .text(formatNumber(individual.size()));
 
+  onsetDate.filterAll();
+  
   renderAll();
 
   // Renders the specified chart or list.
