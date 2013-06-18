@@ -254,7 +254,7 @@ aside {
   	<div class="death">Death</div>
   	<div class="age">Age</div>
   	<div class="gender">Sex</div>
-  	<div class="country">Country</div>
+  	<div class="province">Location</div>
   	<div class="city">City</div>
   </div></div>
   <div id="case-list" class="list"></div>
@@ -468,8 +468,8 @@ aside {
           .text(function(d) { return d.gender; });
 
 	  individualEnter.append("div")
-          .attr("class", "country")
-          .text(function(d) { return d.country; });
+          .attr("class", "province")
+          .text(function(d) { return d.province; });
 
 	  individualEnter.append("div")
           .attr("class", "city")
