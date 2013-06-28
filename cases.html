@@ -349,10 +349,10 @@ div.notes {
 		.dimension(onsetDate)
 		.group(onsetDates)
 		.centerBar(true)
-		.gap(1)
-		.x(d3.time.scale().domain([new Date(2012, 0, 1), new Date(2013, 5, 31)]))
-		.round(d3.time.week.round)
-		.xUnits(d3.time.weeks)
+		.gap(-1)
+		.x(d3.time.scale().domain([new Date(2013, 0, 1), new Date(2013, 5, 31)]))
+		.round(d3.time.day.round)
+		.xUnits(d3.time.days)
 		.on("filtered", function(d) {     list.each(render); });
 
 	ageChart.width(440)
