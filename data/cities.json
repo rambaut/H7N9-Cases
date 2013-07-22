@@ -10,6 +10,7 @@
 { "name": "Jiaxing", "province": "Zhejiang", "coordinates": [120.7500, 30.7667] },
 { "name": "Kaifeng", "province": "Henan", "coordinates": [114.3481, 34.7911] },
 { "name": "Kunshan", "province": "Jiangsu", "coordinates": [120.9514, 31.3844] },
+{ "name": "Langfang", "province": "Hebei", "coordinates": [116.7000, 39.5167] },
 { "name": "Liyang", "province": "Jiangsu", "coordinates": [119.4667, 31.4167] },
 { "name": "Nanjing", "province": "Jiangsu", "coordinates": [118.7667, 32.0500] },
 { "name": "Shanghai", "province": "Shanghai", "coordinates": [121.5000, 31.2000] },
