@@ -5,6 +5,7 @@
 { "name": "Fuzhou", "province": "Fujian", "coordinates": [119.3036, 26.0711] },
 { "name": "Hangzhou", "province": "Zhejiang", "coordinates": [120.1769, 30.2731] },
 { "name": "Haozhou", "province": "Anhui", "coordinates": [115.7500, 33.8667] },
+{ "name": "Huizhou", "province": "Guangdong", "coordinates": [114.3833, 23.0667] },
 { "name": "Huzhou", "province": "Zhejiang", "coordinates": [120.1000, 30.8667] },
 { "name": "Jiande", "province": "Zhejiang", "coordinates": [119.3370, 29.4896] },
 { "name": "Jiaxing", "province": "Zhejiang", "coordinates": [120.7500, 30.7667] },
