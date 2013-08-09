@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>MERS-CoV Cases</title>
+<title>H7N9 Avian Influenza Cases</title>
 <link rel="stylesheet" type="text/css" href="css/dc.css"/>
 <link rel="stylesheet" href="css/leaflet.css" />
 <link rel="stylesheet" href="css/MarkerCluster.css" />
@@ -344,7 +344,7 @@ div.notes {
 		<div id="data-count" class="title">
 			<span class="filter-count"></span> selected out of <span class="total-count"></span> cases | <a
 				class="reset-all title"
-				href="javascript:dc.filterAll(); dc.renderAll();">reset all</a>
+				href="javascript:dc.filterAll(); renderAll();">reset all</a>
 		</div>
     </div>
 	<div id="lists" class="block-div">
@@ -417,12 +417,13 @@ div.notes {
 	}).addTo(map);
 
 	queue()
+        .defer(d3.json, "data/provinces.json")
         .defer(d3.json, "data/cities.json")
         .defer(d3.csv, "data/cases.csv")
         .await(ready);
 
 
-	function ready(error, cityData, caseData) {
+	function ready(error, provinceData, cityData, caseData) {
 		if (error) return console.log("there was an error loading the data: " + error);
 
 
@@ -495,10 +496,6 @@ div.notes {
 			d.genderCode = 0;
 		}
 		
-		if (d.date != null) {
-			cases.push(d);
-		}
-	
 		d.cluster = (d.secondary === "TRUE" ? "secondary" : "primary");
 	
 		var found = false;
@@ -514,9 +511,25 @@ div.notes {
 		}
 		if (!found) d.city = null;
 
+
+		if (d.province.length > 0) {
+			provinceData.forEach(function(province) {
+				if (d.province == province.name) {
+					d['province'] = province;
+					found = true;
+				}
+			});
+			if (!found) console.log("Province not found: " + d.province);
+		}
+		if (!found) d.province = null;
+
 		found = false;
 
-	 	console.log(d.code + ": " + d.age + ", " + d.gender + ", " + d.province + " [" + d.dateType + "], " + d.secondary + ", " + d.cluster);
+	 	if (d.date != null && d.province != null) {
+			cases.push(d);
+		}
+	
+	console.log(d.code + ": " + d.age + ", " + d.gender + ", " + d.province + " [" + d.dateType + "], " + d.secondary + ", " + d.cluster);
 	 });
   
 	  var ageGroupSize = 5;
@@ -527,7 +540,7 @@ div.notes {
 		  allCases = crossFilter.dimension(function(d) { return d; }),
 		  onsetDate = crossFilter.dimension(function(d) { return d.date; }),
 		  onsetDates = onsetDate.group(d3.time.day),
-		  province = crossFilter.dimension(function(d) { return d.province; }),
+		  province = crossFilter.dimension(function(d) { return d.province.name; }),
 		  provinces = province.group(function(d) { return d; }),
 		  gender = crossFilter.dimension(function(d) { return d.genderCode; }),
 		  genders = gender.group(function(d) { return d; }),
@@ -661,7 +674,7 @@ div.notes {
 				
 				var markerList = [];
 				allCases.top(Infinity).forEach(function(individual) {
-					if (individual.province == province.key) {
+					if (individual.province.name == province.key) {
 						var city = individual.city;
 						if (city != null) {
 							var title = city.name;
@@ -670,8 +683,8 @@ div.notes {
 							markers.addLayer(marker);
 							markerList.push(marker);
 						} else {
-							var title = individual.province;
-							var marker = L.marker(L.latLng(city.coordinates[1], city.coordinates[0]), { title: title });
+							var title = individual.province.name;
+							var marker = L.marker(L.latLng(individual.province.coordinates[1], individual.province.coordinates[0]), { title: title });
 							marker.bindPopup(title);
 							markers.addLayer(marker);
 							markerList.push(marker);
@@ -758,7 +771,7 @@ div.notes {
 
 				individualEnter.append("div")
 				  .attr("class", "province")
-				  .text(function(d) { return d.province; });
+				  .text(function(d) { return d.province.name; });
 
 				individualEnter.append("div")
 				  .attr("class", "city")
