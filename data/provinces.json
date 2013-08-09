@@ -1,14 +1,14 @@
 [
-{ "name": "Anhui", "coordinates": [118.2978, 32.3219] },
-{ "name": "Beijing", "coordinates": [116.4000, 39.9100] },
-{ "name": "Fujian", "coordinates": [119.3036, 26.0711] },
-{ "name": "Guangdong", "coordinates": [114.3833, 23.0667] },
-{ "name": "Jiangsu", "coordinates": [120.7333, 31.6500] },
-{ "name": "Jiangxi", "coordinates": [114.3833, 27.8000] },
-{ "name": "Hebei", "coordinates": [116.7000, 39.5167] },
-{ "name": "Henan", "coordinates": [114.3481, 34.7911] },
-{ "name": "Shandong", "coordinates": [117.55, 34.866667] },
-{ "name": "Shanghai", "coordinates": [121.5000, 31.2000] },
-{ "name": "Zhejiang", "coordinates": [120.1769, 30.2731] }
+{ "name": "Anhui", "coordinates": [117, 31.833333] },
+{ "name": "Beijing", "coordinates": [116.42, 39.9] },
+{ "name": "Fujian", "coordinates": [117.85, 25.9] },
+{ "name": "Guangdong", "coordinates": [113.5, 23.4] },
+{ "name": "Jiangsu", "coordinates": [119.8, 32.9] },
+{ "name": "Jiangxi", "coordinates": [116.0, 27.3] },
+{ "name": "Hebei", "coordinates": [116.7, 39.3] },
+{ "name": "Henan", "coordinates": [113.5, 33.9] },
+{ "name": "Shandong", "coordinates": [118.4, 36.4] },
+{ "name": "Shanghai", "coordinates": [121.6, 31.1] },
+{ "name": "Zhejiang", "coordinates": [120.5, 29.2] }
 ]
 

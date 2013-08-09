@@ -683,7 +683,7 @@ div.notes {
 							markers.addLayer(marker);
 							markerList.push(marker);
 						} else {
-							var title = individual.province.name;
+							var title = individual.province.name + " Province";
 							var marker = L.marker(L.latLng(individual.province.coordinates[1], individual.province.coordinates[0]), { title: title });
 							marker.bindPopup(title);
 							markers.addLayer(marker);
