@@ -6,6 +6,9 @@
 { "name": "Hangzhou", "province": "Zhejiang", "coordinates": [120.1769, 30.2731] },
 { "name": "Haozhou", "province": "Anhui", "coordinates": [115.7500, 33.8667] },
 { "name": "Huizhou", "province": "Guangdong", "coordinates": [114.3833, 23.0667] },
+{ "name": "Dongguan", "province": "Guangdong", "coordinates": [113.7167, 23.0333] },
+{ "name": "Yangjiang", "province": "Guangdong", "coordinates": [111.9667, 21.8500] },
+{ "name": "Shenzhen", "province": "Guangdong", "coordinates": [114.1333, 22.5333] },
 { "name": "Huzhou", "province": "Zhejiang", "coordinates": [120.1000, 30.8667] },
 { "name": "Jiande", "province": "Zhejiang", "coordinates": [119.3370, 29.4896] },
 { "name": "Jiaxing", "province": "Zhejiang", "coordinates": [120.7500, 30.7667] },
@@ -25,8 +28,6 @@
 { "name": "Zhenjiang", "province": "Jiangsu", "coordinates": [119.4167, 32.2000] },
 { "name": "Zhenzhou", "province": "Henan", "coordinates": [113.6419, 34.7603] },
 { "name": "Zhoukou", "province": "Henan", "coordinates": [114.6333, 33.6333] },
-{ "name": "Zaozhuang", "province": "Shandong", "coordinates": [117.55, 34.866667] },
-{ "name": "Dongguan", "province": "Guangdong", "coordinates": [113.7167, 23.0333] },
-{ "name": "Shenzhen", "province": "Guangdong", "coordinates": [114.1333, 22.5333] }
+{ "name": "Zaozhuang", "province": "Shandong", "coordinates": [117.55, 34.866667] }
 ]
 
