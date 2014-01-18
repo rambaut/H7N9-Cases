@@ -7,6 +7,7 @@
 { "name": "Jiangxi", "coordinates": [116.0, 27.3] },
 { "name": "Hebei", "coordinates": [116.7, 39.3] },
 { "name": "Henan", "coordinates": [113.5, 33.9] },
+{ "name": "Hunan", "coordinates": [111.8, 27.4] }, 
 { "name": "Shandong", "coordinates": [118.4, 36.4] },
 { "name": "Shanghai", "coordinates": [121.6, 31.1] },
 { "name": "Zhejiang", "coordinates": [120.5, 29.2] }
