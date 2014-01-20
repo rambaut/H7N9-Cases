@@ -8,6 +8,8 @@
 { "name": "Longyan", "province": "Fujian", "coordinates": [117.0167, 25.0833] },
 { "name": "Jinjiang", "province": "Fujian", "coordinates": [118.5700, 24.8200] },
 { "name": "Quanzhou", "province": "Fujian", "coordinates": [118.5833, 24.9167] },
+{ "name": "Ningde", "province": "Fujian", "coordinates": [119.5167, 26.6667] },
+{ "name": "Shishi", "province": "Fujian", "coordinates": [118.7000, 24.7167] },
 { "name": "Hangzhou", "province": "Zhejiang", "coordinates": [120.1769, 30.2731] },
 { "name": "Haozhou", "province": "Anhui", "coordinates": [115.7500, 33.8667] },
 { "name": "Huizhou", "province": "Guangdong", "coordinates": [114.3833, 23.0667] },
