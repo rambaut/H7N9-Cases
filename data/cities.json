@@ -25,6 +25,7 @@
 { "name": "Yiwu", "province": "Zhejiang", "coordinates": [120.1000, 29.5344] }, 
 { "name": "Zhuji", "province": "Zhejiang", "coordinates": [120.2333, 29.7167] },
 { "name": "Ningbo", "province": "Zhejiang", "coordinates": [121.5500, 29.8667] },
+{ "name": "Taizhou", "province": "Zhejiang", "coordinates": [121.3500, 28.6667] },
 { "name": "Taicang", "province": "Jiangsu", "coordinates": [121.1000, 31.4500] },
 { "name": "Kaifeng", "province": "Henan", "coordinates": [114.3481, 34.7911] },
 { "name": "Zhengzhou", "province": "Henan", "coordinates": [113.6500, 34.7667] },
