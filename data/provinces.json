@@ -3,6 +3,7 @@
 { "name": "Beijing", "coordinates": [116.42, 39.9] },
 { "name": "Fujian", "coordinates": [117.85, 25.9] },
 { "name": "Guangdong", "coordinates": [113.5, 23.4] },
+{ "name": "Guangxi", "coordinates": [108.3000, 23.6000] },
 { "name": "Jiangsu", "coordinates": [119.8, 32.9] },
 { "name": "Jiangxi", "coordinates": [116.0, 27.3] },
 { "name": "Hebei", "coordinates": [116.7, 39.3] },
