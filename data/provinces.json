@@ -6,6 +6,8 @@
 { "name": "Guangxi", "coordinates": [108.3000, 23.6000] },
 { "name": "Jiangsu", "coordinates": [119.8, 32.9] },
 { "name": "Jiangxi", "coordinates": [116.0, 27.3] },
+{ "name": "Jiangxi", "coordinates": [116.0, 27.3] },
+{ "name": "Jilin", "coordinates": [126.2, 43.7] },
 { "name": "Hebei", "coordinates": [116.7, 39.3] },
 { "name": "Henan", "coordinates": [113.5, 33.9] },
 { "name": "Hunan", "coordinates": [111.8, 27.4] }, 
