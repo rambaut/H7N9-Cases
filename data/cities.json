@@ -22,6 +22,7 @@
 { "name": "Zhangzhou", "province": "Fujian", "coordinates": [117.6500, 24.5167] },
 { "name": "Hangzhou", "province": "Zhejiang", "coordinates": [120.1769, 30.2731] },
 { "name": "Huizhou", "province": "Guangdong", "coordinates": [114.3833, 23.0667] },
+{ "name": "Kaiping", "province": "Guangdong", "coordinates": [112.6833, 22.3667] },
 { "name": "Dongguan", "province": "Guangdong", "coordinates": [113.7167, 23.0333] },
 { "name": "Yangjiang", "province": "Guangdong", "coordinates": [111.9667, 21.8500] },
 { "name": "Shenzhen", "province": "Guangdong", "coordinates": [114.1333, 22.5333] },
